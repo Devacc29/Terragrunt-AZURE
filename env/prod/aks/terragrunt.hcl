@@ -24,5 +24,9 @@ inputs ={
     dns_prefix         = "prod-aks-aceo-29"
     kubernetes_version = "1.30.0"
     pod_subnet_id      = dependency.vnet.outputs.snet_ids["prod-vnet-01-sub1"]
+    load_balancer_sku = "standard"
+    dnp_vm_size = "standard_b2ms"
+    dnp_node_count = 1
+    dnp_name = "aks-ndp-prod"
   }
 }
