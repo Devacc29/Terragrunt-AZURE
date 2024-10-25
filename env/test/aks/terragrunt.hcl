@@ -27,6 +27,6 @@ inputs ={
     load_balancer_sku = "standard"
     dnp_vm_size = "standard_b2ms"
     dnp_node_count = 1
-    dnp_name = "aks-ndp-test"
+    dnp_name = "ndptest"
   }
 }
